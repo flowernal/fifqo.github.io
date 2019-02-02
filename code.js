@@ -12,29 +12,33 @@
       choices: ["Catty", "Kitty", "Titty", "Zase nezavrela dvere", "Ani jedno z uvedených"],
       correctAnswer: 1
     }, {
-        question: "Ako sa volá FiFqova paródia na Bitch lasanga?",
-        choices: ["Ku*va lazaňa", "Fena lazaňa", "Prostitútka lazaňa", "Bitch lasagna SK verzia", "Ani jedno z uvedených"],
-        correctAnswer: 1
+      question: "Ako sa volá FiFqova paródia na Bitch lasanga?",
+      choices: ["Ku*va lazaňa", "Fena lazaňa", "Prostitútka lazaňa", "Bitch lasagna SK verzia", "Ani jedno z uvedených"],
+      correctAnswer: 1
     }, {
-        question: "Koľko natočil FiFqo videí z Geometry Dashu? (1.2.2019)",
-        choices: ["89", "91", "93", "95", "Ani jedno z uvedených"],
-        correctAnswer: 4
+      question: "Koľko natočil FiFqo videí z Geometry Dashu? (1.2.2019)",
+      choices: ["89", "91", "93", "95", "Ani jedno z uvedených"],
+      correctAnswer: 4
     }, {
-        question: "Koľko má FiFqo rokov? (1.2.2019)",
-        choices: ["18", "21", "22", "26", "Ani jedno z uvedených"],
-        correctAnswer: 4
+      question: "Koľko má FiFqo rokov? (1.2.2019)",
+      choices: ["18", "21", "22", "26", "Ani jedno z uvedených"],
+      correctAnswer: 4
     }, {
-        question: "Kedy FiFqo vydal prvé video? (FiFqoOLD)",
-        choices: ["11.11.2014", "1.1.2014", "1.1.2013", "11.11.2013", "Ani jedno z uvedených"],
-        correctAnswer: 3
+      question: "Kedy FiFqo vydal prvé video? (FiFqoOLD)",
+      choices: ["11.11.2014", "1.1.2014", "1.1.2013", "11.11.2013", "Ani jedno z uvedených"],
+      correctAnswer: 3
     }, {
-        question: "Koľko má FiFqo súrodencov? (Aj nevlastní)",
-        choices: ["0", "1", "4", "3", "Ani jedno z uvedených"],
-        correctAnswer: 2
+      question: "Koľko má FiFqo súrodencov? (Aj nevlastní)",
+      choices: ["0", "1", "4", "3", "Ani jedno z uvedených"],
+      correctAnswer: 2
     }, {
-        question: "V akej mestskej časti býva FiFqo?",
-        choices: ["Ružinov", "Dúbravka", "Staré Mesto", "Petržalka", "Ani jedno z uvedených"],
-        correctAnswer: 3
+      question: "V akej mestskej časti býva FiFqo?",
+      choices: ["Ružinov", "Dúbravka", "Staré Mesto", "Petržalka", "Ani jedno z uvedených"],
+      correctAnswer: 3
+    }, {
+      question: "Kedy zomrel Patkaň? ❤️",
+      choices: ["september 2016", "november 2016", "február 2017", "august 2017", "Ani jedno z uvedených"],
+      correctAnswer: 0
     }];
 
     var questions = questions.sort(function (questions, b) {return Math.random() - 0.5;});
