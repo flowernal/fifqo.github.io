@@ -116,7 +116,7 @@
       var input = '';
       for (var i = 0; i < questions[index].choices.length; i++) {
         item = $('<li>');
-        input = '<input type="radio" name="answer" style="height:35px; width:35px;" align="center" value=' + i + ' />';
+        input = '<label><input type="radio" class="option-input radio" name="answer" align="center" value=' + i + ' />';
         input += questions[index].choices[i];
         item.append(input);
         radioList.append(item);
