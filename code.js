@@ -34,7 +34,7 @@
     }, {
         question: "V akej mestskej časti býva FiFqo?",
         choices: ["Ružinov", "Dúbravka", "Staré Mesto", "Petržalka", "Ani jedno z uvedených"],
-        correctAnswer: 2
+        correctAnswer: 3
     }];
 
     var questions = questions.sort(function (questions, b) {return Math.random() - 0.5;});
@@ -58,7 +58,7 @@
       
       // If no user selection, progress is stopped
       if (isNaN(selections[questionCounter])) {
-        alert('Please make a selection!');
+        alert('Prosím, zvoľ nejakú možnosť!');
       } else {
         questionCounter++;
         displayNext();
@@ -116,7 +116,7 @@
       var input = '';
       for (var i = 0; i < questions[index].choices.length; i++) {
         item = $('<li>');
-        input = '<input type="radio" name="answer" align="center" value=' + i + ' />';
+        input = '<input type="radio" name="answer" style="height:35px; width:35px;" align="center" value=' + i + ' />';
         input += questions[index].choices[i];
         item.append(input);
         radioList.append(item);
