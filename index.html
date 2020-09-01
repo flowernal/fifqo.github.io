@@ -1,42 +1,82 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
 <html>
-	<head>
-		<title>FiFqo Quiz</title>
-		<link rel="shortcut icon" type="image/x-icon" href="https://yt3.ggpht.com/a-/AAuE7mCBl-_MBR4O_Q45mikCGnmsyMDvXzJdds5WMg=s288-mo-c-c0xffffffff-rj-k-no"/>
-		<link type='text/css' rel='stylesheet' href='stylesheet.css'/>
-		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans"/>
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
-        <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">      
-        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-	</head>
-	<body>
-		<div class="everything">
-			<div id='container' class="layer1">
-				<div id='title'>
-					<h1 style="font-family: 'Luckiest Guy', cursive; font-size: 50px">FiFqo Quiz</h1>
-                                        <h2 style="font-family: 'Luckiest Guy', cursive; font-size: 20px">Príd na Discord ked tak :P</h2>
-				</div>
-				<div id='quiz'></div><br>
-				<div class="buttons">
-					<div id='next'><a style="cursor: pointer;" class='rainbow-button' alt="Ďalej"></a></div><br>
-					<div id='prev'><a style="cursor: pointer;" class='rainbow-button' alt="Späť"></a></div><br>
-					<div id='start'> <a style="cursor: pointer;" class='rainbow-button' alt="Odznova"></a></div><br>
-				</div>
-			</div>
-			<div class="wrapper layer2">
-				<ul id="share">
-					<a href='https://www.facebook.com/sharer/sharer.php?u=https%3A//www.fifqo.tk/' target="_newtab"><li class="facebook"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></li></a>
-					<br><a href="https://twitter.com/home?status=Ahoj,%20zahraj%20si%20FiFqo%20Quiz!%20Nap%C3%AD%C5%A1%20mi%20do%20koment%C3%A1rov,%20ko%C4%BEko%20odpoved%C3%AD%20m%C3%A1%C5%A1%20dobre!%0Ahttps%3A//www.fifqo.tk/" target="_newtab"><li class="twitter"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></li></a>
-					<br><a href="http://reddit.com/submit?url=Ahoj%2C%20zahraj%20si%20FiFqo%20Quiz!%20Nap%C3%AD%C5%A1%20mi%20do%20koment%C3%A1rov%2C%20ko%C4%BEko%20odpoved%C3%AD%20m%C3%A1%C5%A1%20dobre!&title=https%3A%2F%2Fwww.fifqo.tk%2F" target="_newtab"><li class="reddit"><i class="fa fa-reddit fa-2x" aria-hidden="true"></i></li></a>
-					<br><a href="https://plus.google.com/share?url=https%3A//www.fifqo.tk/"><li class="google"><i class="fa fa-google fa-2x" aria-hidden="true"></i></li></a>
-				</ul>
-			</div>
-		</div>
+    <head>
+        <title>FiFqo Official</title>
+        <meta name="description" content="Oficiálny FiFqov discord server">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="https://yt3.ggpht.com/a/AATXAJzfDMUOeKgyA5QPv_DnepKHmDnfquDN7zmSmx_eIg=s100-c-k-c0xffffffff-no-rj-mo">
+        <meta property='og:title' content='FiFqo Official'/>
+		<meta property='og:description' content='Oficiálny FiFqov Discord server.'/>
+		<meta property='og:image' content='https://yt3.ggpht.com/a/AATXAJzfDMUOeKgyA5QPv_DnepKHmDnfquDN7zmSmx_eIg=s100-c-k-c0xffffffff-no-rj-mo'/>
+        <meta name="keywords" content="FiFqo, discord, Official">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
 
-		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
-		<script language=javascript>document.write(unescape('%3Cscript%20type%3D%27text/javascript%27%20src%3D%27code.js%27%3E%3C/script%3E'))</script>
-	</body>
+        <style>
+		::-webkit-scrollbar {
+                display: none;
+                -ms-overflow-style: none;  /* IE and Edge */
+                scrollbar-width: none;  /* Firefox */
+            }
+
+            body {
+				text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #2E8B57;
+                color: white;
+			}
+			
+			h1 {
+				font-family: 'Oswald', sans-serif;
+			}
+		
+			.myButton {
+				font-family: Arial, Helvetica, sans-serif;
+				background-color:#44c767;
+				border-radius:28px;
+				border:1px solid #18ab29;
+				display:inline-block;
+				cursor:pointer;
+				color:#ffffff;
+				font-size:17px;
+				padding:16px 31px;
+				text-decoration:none;
+				text-shadow:0px 1px 0px #164229;
+                box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+                transition-duration: 0.5s;
+			}
+			
+			.myButton:hover {
+				background-color:#5cbf2a;
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+			}
+
+            #fifqoLogo {
+                 border: 2px solid #236a42;
+            }
+
+            hr {
+                color: white;
+            }
+			
+		
+        </style>
+    </head>    
+
+    <body>
+        <header>
+            <img src="https://cdn.discord.me/server/99ef7f243ee87bcafd4398a1d51ad6821f65a77de3592234ee169c4dfa13475d/banner_e3f58afc7d12b20009967f06adb8ca5cbe04f54af641672406c48996f2269c96.jpg"
+            style="margin-left: auto; margin-right: auto; display: block; width: 100%;">
+            <br><hr><br>
+        </header>
+        <main>
+            <h1>FiFqo Official</h1>
+            <h4>Oficiálny Discord server YouTubera FiFqo.<br>Nájdete tu super komunitu, kopec srady a zábavy, eventy, informácie o Minecraft serveri, mremíky a kopu ďalších vecí!</h4>
+            <a href="https://discord.gg/7gw2J8Y" class="myButton">Pripojiť sa</a>
+            <br><br><hr><br>
+        </main>
+        <footer>
+            <img src="https://yt3.ggpht.com/a/AATXAJzfDMUOeKgyA5QPv_DnepKHmDnfquDN7zmSmx_eIg=s100-c-k-c0xffffffff-no-rj-mo" style="margin-left: auto; margin-right: auto; display: block;" id="fifqoLogo">
+            <h7 style="float: right;">Made by BramboraSK & OLSE9</h7>
+        </footer>
+    </body>
 </html>
